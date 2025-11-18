@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<style>
+    .sidebar {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .card_param {
+      width: 20rem;
+      margin-top: 20px;
+      margin-left: 50px
+    }
+    a {
+        text-decoration: none; /* Убираем подчёркивание */
+        color:white /* делаем белыми */
+    }
+    a:hover {
+        text-decoration: underline; /* Добавляем подчёркивание */
+        text-decoration-color: white ; /* Цвет подчёркивания */
+    }
+</style>
+<body>
+<div class="container-fluid">
+    <div class="row"> <!-- Основной блок для работы с колонками -->
+        <div class="col-2 sidebar">
+            <h3>Меню</h3>
+            <hr class="border-2"/>
+            <div><a class="cov-2 mt-3" href="main.html">Главная</a></div>
+            <div class="row mt-1 "></div>
+            <div><a class="col-2" href="category.html">Категории</a></div>
+            <div class="row mt-1 "></div>
+            <div><a class="col-2" href="catalog.html">Заказы</a></div>
+            <div class="row mt-1 "></div>
+            <div><a class="col-2" href="contact.html">Контакты</a></div>
+
+            <div class="dropdown position-absolute bottom-0 start-0 mb-3 ms-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                    Пользователь
+                </button>
+                <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Профиль</a></li>
+                    <li><a class="dropdown-item" href="#">Выход</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col"> <!-- Колонка шириной 10/12 для размещения основного контента -->
+            <div class="row mt-5 "></div>
+            <div class="row mt-5 "></div>
+            <h1 style="text-align: center">Каталог</h1>
+            <div class="row mt-5 "></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="col-1"></div>
+                        <div class="col-9">
+                            <div class="card mb-3">
+                                <img src="jpg/cat_1.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a
+                                        natural lead-in to additional content. This content is a little bit
+                                        longer.</p>
+
+                                    <div class="btn-toolbar justify-content-between" role="toolbar"
+                                         aria-label="Toolbar with button groups">
+                                        <div class="btn-group" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <div class="card-text">
+                                            <small class="text-body-secondary" style="text-align: right">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="col-1"></div>
+                        <div class="col-9">
+                            <div class="card mb-3">
+                                <img src="jpg/cat_1.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a
+                                        natural lead-in to additional content. This content is a little bit
+                                        longer.</p>
+
+                                    <div class="btn-toolbar justify-content-between" role="toolbar"
+                                         aria-label="Toolbar with button groups">
+                                        <div class="btn-group" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <div class="card-text">
+                                            <small class="text-body-secondary" style="text-align: right">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 "></div>
+                    <div class="col-6">
+                        <div class="col-1"></div>
+                        <div class="col-9">
+                            <div class="card mb-3">
+                                <img src="jpg/cat_1.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a
+                                        natural lead-in to additional content. This content is a little bit
+                                        longer.</p>
+
+                                    <div class="btn-toolbar justify-content-between" role="toolbar"
+                                         aria-label="Toolbar with button groups">
+                                        <div class="btn-group" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <div class="card-text">
+                                            <small class="text-body-secondary" style="text-align: right">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="col-1"></div>
+                        <div class="col-9">
+                            <div class="card mb-3">
+                                <img src="jpg/cat_1.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a
+                                        natural lead-in to additional content. This content is a little bit
+                                        longer.</p>
+
+                                    <div class="btn-toolbar justify-content-between" role="toolbar"
+                                         aria-label="Toolbar with button groups">
+                                        <div class="btn-group" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <div class="card-text">
+                                            <small class="text-body-secondary" style="text-align: right">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
